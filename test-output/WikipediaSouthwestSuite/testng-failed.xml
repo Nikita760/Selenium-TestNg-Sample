@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WikipediaSouthwestSuite]">
+  <test name="WikipediaTest(failed)">
+    <classes>
+      <class name="com.opit.test.selenium.SouthwestExample">
+        <methods>
+          <include name="loggingBeforeSuite"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loggingAfterSuite"/>
+        </methods>
+      </class> <!-- com.opit.test.selenium.SouthwestExample -->
+      <class name="com.opit.test.selenium.WikipediaGoogleTestExample">
+        <methods>
+          <include name="oneTimeLogging"/>
+          <include name="closeBrowser"/>
+          <include name="closeLogging"/>
+          <include name="testGoogleSearchOnFirefox"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.opit.test.selenium.WikipediaGoogleTestExample -->
+    </classes>
+  </test> <!-- WikipediaTest(failed) -->
+</suite> <!-- Failed suite [WikipediaSouthwestSuite] -->
